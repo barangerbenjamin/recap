@@ -11,7 +11,7 @@ pd.set_option("display.width", 200)
 
 
 def clean_data(data):
-    """clean data"""
+    """clean dataaaaa"""
     # Remove columns starts with vote
     cols = [x for x in data.columns if x.find("vote") >= 0]
     data.drop(cols, axis=1, inplace=True)
